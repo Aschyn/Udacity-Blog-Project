@@ -1,0 +1,100 @@
+
+
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #00aced;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.facebook:hover, .twitter:hover, .linkedin:hover{
+  color: #333;
+}
+
+.post-content {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.post-content .blog-img {
+  max-width: 80vw;
+
+  height: 25vh;
+}
+
+.post-img-caption {
+  font-style: italic;
+
+  color: #555;
+}
+
+figure {
+  text-align: center;
+}
+
+.post-title {
+  width: 100%;
+
+  text-align: center;
+}
+
+.post-article {
+  width: 65vw;
+
+  margin-top: 50px;
+
+  margin-bottom: 50px;
+}
+
+.author-card {
+  width: 50vw;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  font-size: 16px;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  text-align: center;
+}
+
+.author-image {
+  height: 100px;
+
+  width: auto;
+
+  border-radius: 2.5px;
+}
+
+.author-name, .author-title, .author-desc {
+  margin: 0px;
+
+  color: #444;
+}
+
+.social-list{
+ padding: 0px;
+
+ margin: 5px;
+
+ list-style: none;
+}
+
+.social-list-item{
+  display: inline;
+}

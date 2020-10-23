@@ -1,0 +1,138 @@
+.blog-content {
+  grid-area: content;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+.blog-card {
+  min-height: 25vh;
+
+  width:60vw;
+
+  text-align: center;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 1fr .25fr;
+
+  grid-template-areas:
+  "text"
+  "btn";
+
+  background-color: rgba(100, 100, 100, .95);
+
+  color: #eee;
+
+  text-shadow: 2px 2px #000;
+
+  margin-bottom: 2vh;
+
+  overflow-x: hidden;
+}
+
+.blog-card:hover{
+  cursor: pointer;
+}
+
+.card-overlay {
+  height: 100%;
+
+  background-color: rgba(30, 30, 30, .6);
+}
+
+.card-text {
+  grid-area: text;
+
+  height: 100%;
+}
+
+.card-title {
+  margin:auto;
+
+  padding-top: 5vh;
+}
+
+.card-preview {
+  text-decoration: none;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  width: 90%;
+
+  margin-left:auto;
+
+  margin-right: auto;
+
+  font-size: 1em;
+}
+
+.card-link {
+  margin:auto;
+
+  grid-area: btn;
+}
+
+.card-button {
+  border-radius: 25px;
+
+  border: .5px solid black;
+
+  background-color: #3ea54a;
+}
+
+.card-button:hover {
+  background-color: lightblue;
+
+  border: 1px solid black;
+
+  box-shadow: 0px 1px 3px black;
+}
+
+#post-the-beginning .card-text {
+  background:url("images/worn-keyboard.jpg") center/contain no-repeat;
+}
+
+#post-the-runaround .card-text {
+  background:url("images/roundabout.jpg") center/contain no-repeat;
+}
+
+@media screen and (min-width: 900px) {
+  .blog-content {
+    margin-left: auto;
+
+    margin-right: auto;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    width: 80vw;
+
+    align-items: center;
+
+    justify-content: space-around;
+  }
+
+  .blog-section-title{
+    width: 100vw;
+
+    text-align: center;
+  }
+
+  .blog-card {
+    width: 35vw;
+
+    height: 35vh;
+  }
+
+}

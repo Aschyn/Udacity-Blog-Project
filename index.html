@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Front-End Life</title>
+    <meta name="description" content="Personal blog following my web development journey, all the peaks and valleys involved.">
+    <meta name="author" content="Garrick Griffith">
+    <meta name="keywords" content="web development, frontend, personal development, development, web dev, website, blog, udacity">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="blog-frame">
+    <header class="blog-header">
+      <div id="name-group">
+        <h1 id="site-name">Life Map</h1>
+        <p id="site-tagline">My web development journey</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="" class="links">Home</a></li>
+          <li><a href="the-runaround.html" class="links">Recent Post</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="blog-content">
+      <h2 class="blog-section-title">Blog Posts</h2>
+      <div class="blog-card" id="post-the-runaround">
+        <div class="card-text" onclick="window.location='the-runaround.html'">
+          <div class="card-overlay">
+            <h3 class="card-title"> The Runaround </h3>
+            <p class="card-preview">Story of how I lost direction and spun in circles.</p>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="the-runaround.html"><button type="button" name="runaround-post" class="card-button">Read More</button></a>
+        </div>
+      </div>
+      <div class="blog-card" id="post-the-beginning">
+        <div class="card-text" onclick="window.location='the-beginning.html'">
+          <div class="card-overlay">
+            <h3 class="card-title"> The Beginning </h3>
+            <p class="card-preview">My first post, where it all started.</p>
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="the-beginning.html"><button type="button" name="beginning-post" class="card-button"> Read More</button></a>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <ul class="footer-list">
+        <li><a href="#name-group" class="footer-link">Home</a></li>
+        <li>©Garrick Griffith</li>
+      </ul>
+    </footer>
+  </body>
+</html>
