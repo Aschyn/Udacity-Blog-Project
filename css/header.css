@@ -16,14 +16,16 @@ nav {
 }
 #name-group {
   width: 80%;
+
+  color: #999;
 }
-#name-group #site-name {
+#site-name {
   text-align: center;
 
   margin-bottom: 10px;
 }
 
-#name-group #site-tagline {
+#site-tagline {
   width: auto;
 
   text-align: center;
@@ -33,6 +35,8 @@ nav {
   font-style: normal;
 
   font-size: 1.25em;
+
+  color: white;
 }
 nav ul {
   display: flex;
