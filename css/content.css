@@ -103,11 +103,11 @@
 }
 
 #post-the-beginning .card-text {
-  background:url("images/worn-keyboard.jpg") center/contain no-repeat;
+  background:url("images/worn-keyboard.jpg") center/contain no-repeat #222;
 }
 
 #post-the-runaround .card-text {
-  background:url("images/roundabout.jpg") center/contain no-repeat;
+  background:url("images/roundabout.jpg") center/contain no-repeat #222;
 }
 
 @media screen and (min-width: 900px) {
