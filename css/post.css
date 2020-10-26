@@ -54,6 +54,21 @@ figure {
 
   margin-bottom: 50px;
 }
+section p{
+  font-size: 18px;
+
+  text-decoration: none;
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+blockquote{
+
+  font-size: 1.25em;
+
+}
 
 .author-card {
   width: 50vw;
